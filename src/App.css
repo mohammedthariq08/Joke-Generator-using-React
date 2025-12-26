@@ -1,0 +1,37 @@
+body{
+    margin:0;
+    padding:0;
+    font-family:Arial, Helvetica, sans-serif;
+    background:#232323;
+    color:#ffff;
+    min-height:100vh;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+}
+h2{
+    font-size:2rem;
+    margin-bottom:2rem;
+}
+button{
+    background:#111;
+    color:white;
+    padding:0.8rem 1.2rem;
+    border:none;
+    border-radius:12px;
+    cursor:pointer;
+    margin-bottom:30px;
+    font-size:1rem;
+}
+button:hover{
+    background:#444;
+}
+.joke-card{
+    background:#2d2d2d;
+    padding:20px;
+    max-width:600px;
+    border-radius:15px;
+    box-shadow:2px 3px 3px rgba(0,0,0,0.9); 
+    margin: 0 auto;
+    word-break:break-word;
+}
