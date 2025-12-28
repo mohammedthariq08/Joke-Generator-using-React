@@ -9,9 +9,16 @@ body{
     justify-content:center;
     align-items:center;
 }
+.container{
+    display:flex;
+    flex-direction:column;
+    justify-content:center;
+    align-items:center;
+}
 h2{
     font-size:2rem;
     margin-bottom:2rem;
+    text-align:center;
 }
 button{
     background:#111;
@@ -20,18 +27,25 @@ button{
     border:none;
     border-radius:12px;
     cursor:pointer;
+    margin-left:-10px;
     margin-bottom:30px;
     font-size:1rem;
 }
 button:hover{
     background:#444;
+    transition:background 0.3s ease-out;
 }
 .joke-card{
     background:#2d2d2d;
     padding:20px;
     max-width:600px;
+    max-height:150px;
     border-radius:15px;
     box-shadow:2px 3px 3px rgba(0,0,0,0.9); 
     margin: 0 auto;
-    word-break:break-word;
+    word-wrap:break-word;
+}
+.joke-card:hover{
+    background-color:#444;
+    transition:background-color 0.5s ease-in;
 }
